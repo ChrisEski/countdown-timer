@@ -7,7 +7,7 @@ const currentYear = new Date().getFullYear();
 
 const newYearTime = new Date(`January 1 ${currentYear + 1} 00:00:00`);
 
-// Update Contdowntime
+// Update Countdowntime
 function updateCountdowntime() {
 	const currentTime = new Date();
 	const diff = newYearTime - currentTime;
